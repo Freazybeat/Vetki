@@ -36,7 +36,7 @@ git push --all
 8. Запушить структуру на внешний репозиторий
  git add ChckLst.txt
  git commit -m "add ChckFile"
- git push 
+ git push -u origin CheckLists 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
  git checkout main
